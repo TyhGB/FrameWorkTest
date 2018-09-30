@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 		EUCSDK for IM.
                    DESC
 
-  s.homepage     = "https://git.okayapps.com/uc_pass/ios_sdk"
+  s.homepage     = "https://github.com/TyhGB/FrameWorkTest/tree/1.0.0"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -53,7 +53,7 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "iOS-肖乐乐" => "xiaoll@bbdtek.com" }
+  s.author             = { "TYH" => "562080971@qq.com" }
   # Or just: s.author    = "iOS-肖乐乐"
   # s.authors            = { "iOS-肖乐乐" => "xiaoll@bbdtek.com" }
   # s.social_media_url   = "http://twitter.com/iOS-肖乐乐"
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://git.okayapps.com/uc_pass/ios_sdk.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/TyhGB/FrameWorkTest.git", :tag => s.version }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -94,7 +94,7 @@ Pod::Spec.new do |s|
   # s.source_files  = "Classes", "Classes/**/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
   # s.subspec 'Core' do |ss|
-	s.vendored_frameworks = 'EUCSDK.framework'
+	s.vendored_frameworks = '*.framework'
   # end
 
   # s.public_header_files = "Classes/**/*.h"
