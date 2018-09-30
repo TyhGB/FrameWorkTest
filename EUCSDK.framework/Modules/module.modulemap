@@ -1,0 +1,11 @@
+framework module EUCSDK {
+  umbrella header "EUCSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module EUCSDK.Swift {
+    header "EUCSDK-Swift.h"
+    requires objc
+}
