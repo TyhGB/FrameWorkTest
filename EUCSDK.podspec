@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "EUCSDK"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "EUCSDK for IM"
 
   # This description is used to generate tags and improve search results.
@@ -137,7 +137,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  s.dependency "WebRTC", "~> 58.17.16937"
+#s.dependency "WebRTC", "~> 58.17.16937"
   s.dependency "AFNetworking"
   s.dependency "MJExtension"
   s.dependency "FMDB", "~> 2.6.2"
