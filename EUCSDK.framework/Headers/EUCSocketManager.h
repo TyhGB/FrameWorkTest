@@ -86,7 +86,7 @@ UIKIT_EXTERN NSNotificationName const EUCDidReceivedReadNotification;
 @property (nonatomic, assign) NSUInteger reconnectCount;
 
 @property (nonatomic, strong) SocketIOClient *socketClient;
-
+@property (nonatomic, strong) SocketManager *socketManager;
 /**
  单例生成器
  */

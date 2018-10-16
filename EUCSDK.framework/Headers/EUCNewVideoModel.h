@@ -50,4 +50,17 @@
                     videoSeconds:(NSInteger)videoSeconds
                 placeHolderImage:(UIImage *)placeHolderImage;
 
+
+/**
+ 初始化方法
+ 生成小视频临时路径，与指向临时路径的标识
+
+ @param videoData 小视频的数据
+ @param videoSeconds 视频时长 单位秒
+ @param placeHolderImage 小视频缩略图
+ @return 小视频对象
+ */
+- (instancetype)initWithVideoData:(NSData *)videoData
+                     videoSeconds:(NSInteger)videoSeconds
+                 placeHolderImage:(UIImage *)placeHolderImage;
 @end
