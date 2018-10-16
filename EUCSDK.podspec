@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "EUCSDK"
-  s.version      = "1.0.1"
+  s.version      = "2.0.0"
   s.summary      = "EUCSDK for IM"
 
   # This description is used to generate tags and improve search results.
